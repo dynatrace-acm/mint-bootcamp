@@ -7,3 +7,7 @@ sudo curl --output /opt/telegraf.tar.gz https://dl.influxdata.com/telegraf/night
 
 cd /opt
 sudo tar -zxvf telegraf.tar.gz
+sudo mv /opt/telegraf-* /opt/telegraf
+
+sudo mkdir /etc/telegraf
+sudo mv ~/mint-bootcamp/telegraf.conf /etc/telegraf/
